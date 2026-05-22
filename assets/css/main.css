@@ -77,6 +77,11 @@ input, select, textarea {
 	padding-bottom: 0;
 	margin-bottom: 0;
 }
+
+.scrollfix {
+	padding-top: 45px;
+	margin-top: -45px;
+}
 		/* Basic */
 
 	html {
