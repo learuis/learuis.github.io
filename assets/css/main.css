@@ -24,9 +24,9 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
-html {
-    scroll-padding-top: 8vw!important;
-  }
+[id] {
+  scroll-margin-top: 100px;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -1853,7 +1853,7 @@ input, select, textarea {
 				display: block;
 				height: 44px;
 				left: 0;
-				position: fixed;
+				/*position: fixed;*/
 				top: 0;
 				width: 100%;
 				z-index: 10001;
@@ -1927,7 +1927,7 @@ input, select, textarea {
 				height: 100%;
 				left: 0;
 				overflow-y: auto;
-				position: fixed;
+				/*position: fixed;*/
 				top: 0;
 				width: 275px;
 				z-index: 10002;
