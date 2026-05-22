@@ -24,6 +24,10 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+html {
+    scroll-padding-top: 8vw!important;
+  }
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -75,8 +79,6 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
-		scroll-padding-top: 50px;
-		scroll-margin-top: 4rem;
 	}
 
 	*, *:before, *:after {
@@ -148,12 +150,6 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
-			:target:before {
-				content: "";
-				display: block;
-				height: 50px; /* navbar height */
-				margin: -50px 0 0;
-			}
 			.container {
 				width: calc(100% - 50px);
 			}
@@ -161,13 +157,6 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
-			:target:before {
-				content: "";
-				display: block;
-				height: 50px; /* navbar height */
-				margin: -50px 0 0;
-			}
 
 			.container {
 				width: calc(100% - 40px);
@@ -910,12 +899,6 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
-			:target:before {
-				content: "";
-				display: block;
-				height: 50px; /* navbar height */
-				margin: -50px 0 0;
-			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1161,12 +1144,6 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			:target:before {
-				content: "";
-				display: block;
-				height: 50px; /* navbar height */
-				margin: -50px 0 0;
-			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1827,13 +1804,6 @@ input, select, textarea {
 
 	@media screen and (max-width: 980px) {
 
-			:target:before {
-				content: "";
-				display: block;
-				height: 50px; /* navbar height */
-				margin: -50px 0 0;
-			}
-
 		/* Basic */
 
 			html, body {
@@ -2012,12 +1982,6 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
-			:target:before {
-				content: "";
-				display: block;
-				height: 50px; /* navbar height */
-				margin: -50px 0 0;
-			}
 		/* Basic */
 
 			body, input, textarea, select {
