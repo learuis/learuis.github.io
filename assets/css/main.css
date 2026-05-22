@@ -1868,7 +1868,7 @@ input, select, textarea {
 				}
 
 				#titleBar .toggle {
-					position: absolute;
+					position: static;
 					left: 0;
 					top: 0;
 					width: 80px;
@@ -1878,7 +1878,7 @@ input, select, textarea {
 					#titleBar .toggle:after {
 						content: '';
 						display: block;
-						position: absolute;
+						position: static;
 						top: 6px;
 						left: 6px;
 						color: #fff;
@@ -1892,7 +1892,7 @@ input, select, textarea {
 
 					#titleBar .toggle:before {
 						content: '';
-						position: absolute;
+						position: static;
 						width: 20px;
 						height: 30px;
 						background: url("images/mobileUI-site-nav-opener-bg.svg");
