@@ -83,7 +83,7 @@ input, select, textarea {
 
 	body {
 		background: #D4D9DD url("images/bg03.jpg");
-		color: #474f51;
+		color: #aaaaaa;
 		font-size: 13.5pt;
 		font-family: 'Yanone Kaffeesatz';
 		line-height: 1.85em;
@@ -91,7 +91,7 @@ input, select, textarea {
 	}
 
 	input, textarea, select {
-		color: #474f51;
+		color: #ffffff;
 		font-size: 13.5pt;
 		font-family: 'Yanone Kaffeesatz';
 		line-height: 1.85em;
@@ -116,7 +116,11 @@ input, select, textarea {
 		margin-bottom: 0 !important;
 	}
 
-/* Container */
+	p {
+		margin: 0;
+    	padding: 0;
+	}
+ /*Container*/
 
 	.container {
 		margin: 0 auto;
@@ -1415,7 +1419,7 @@ input, select, textarea {
 		}
 
 		.quote-list li p {
-			margin: 0 0 0 90px;
+			margin: 0 0 0 0px;
 			font-size: 1.2em;
 			font-style: italic;
 		}
@@ -1605,13 +1609,13 @@ input, select, textarea {
 /* Content */
 
 	#content {
-		background: #f7f7f7 url("images/bg04.png");
+		background: #252525 url("images/bg03.png");
 		border-top: solid 1px #fff;
 		padding: 45px 0 45px 0;
 	}
 
 		#content section {
-			background: #fff;
+			background: #101010;
 			padding: 40px 30px 45px 30px;
 			box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.1);
 			margin: 0 0 25px 0;
@@ -1619,33 +1623,45 @@ input, select, textarea {
 
 		#content h2 {
 			font-size: 1.8em;
-			color: #373f42;
+			color: #ffffff;
 			margin: 0 0 0.25em 0;
 		}
 
 		#content h3 {
-			color: #96a9b5;
+			color: #ffffff;
 			font-size: 1.25em;
+			padding: 0;
+			margin: 0;
+		}
+
+		#content h6 {
+			padding: 0;
+			margin: 0;
+		}
+
+		#content h7 {
+			padding: 1;
+			margin: 1;
 		}
 
 		#content a {
-			color: #ED391B;
+			color: #9696FA;
 		}
 
 		#content header {
-			margin: 0 0 2em 0;
+			margin: 0 0 0em 0;
 		}
 
 		#content .quote-list li {
-			border-bottom: solid 1px #e2e6e8;
+			border-bottom: solid 1px #ffffff;
 		}
 
 		#content .link-list li {
-			border-bottom: solid 1px #e2e6e8;
+			border-bottom: solid 1px #ffffff;
 		}
 
 		#content .check-list li {
-			border-bottom: solid 1px #e2e6e8;
+			border-bottom: solid 1px #ffffff;
 		}
 
 /* Footer */
@@ -1717,18 +1733,20 @@ input, select, textarea {
 				}
 
 				.quote-list li p {
-					margin: 0 0 0 80px;
+					margin: 0 0 0 0px;
+					padding: 0;
 					font-size: 1em;
 					font-style: italic;
-					line-height: 1.8em;
+					line-height: 0em;
 				}
 
 				.quote-list li span {
 					display: block;
 					margin-left: 80px;
+					padding: 0;
 					font-size: 0.8em;
 					font-weight: 400;
-					line-height: 1.8em;
+					line-height: 0em;
 				}
 
 			.feature-image {
@@ -1763,6 +1781,8 @@ input, select, textarea {
 
 			#content h3 {
 				font-size: 1.1em;
+				margin: 0;
+				padding: 0;
 			}
 
 			#content header {
@@ -1971,7 +1991,8 @@ input, select, textarea {
 			}
 
 			.quote-list li p {
-				margin-bottom: 0.5em;
+				margin-bottom: 0em;
+				padding: 0;
 			}
 
 			.check-list li {
@@ -1987,14 +2008,15 @@ input, select, textarea {
 			#banner p {
 				font-size: 1.25em;
 				font-weight: 200;
-				line-height: 1.25em;
-				margin: 0 0 1em 0;
+				line-height: 0em;
+				margin: 0 0 0em 0;
+				padding: 0;
 			}
 
 		/* Content */
 
 			#content section {
-				padding: 30px 20px;
+				padding: 0px 0px;
 			}
 
 			#content h2 {
@@ -2003,10 +2025,12 @@ input, select, textarea {
 
 			#content h3 {
 				font-size: 1em;
+				margin: 0;
+				padding: 0;
 			}
 
 			#content header {
-				margin: 0 0 1.25em 0;
+				margin: 0 0 0em 0;
 			}
 
 		/* Footer */
