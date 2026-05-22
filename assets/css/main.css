@@ -71,6 +71,13 @@ input, select, textarea {
 	appearance: none;
 }
 
+.anchor-offset {
+  display: block;
+  position: relative;
+  top: -100px; /* Negative value of header height */
+  visibility: hidden;
+}
+
 /* Basic */
 
 	html {
@@ -1849,7 +1856,7 @@ input, select, textarea {
 				display: block;
 				height: 44px;
 				left: 0;
-				position: static;
+				position: fixed;
 				top: 0;
 				width: 100%;
 				z-index: 10001;
@@ -1868,7 +1875,7 @@ input, select, textarea {
 				}
 
 				#titleBar .toggle {
-					position: static;
+					position: absolute;
 					left: 0;
 					top: 0;
 					width: 80px;
@@ -1878,7 +1885,7 @@ input, select, textarea {
 					#titleBar .toggle:after {
 						content: '';
 						display: block;
-						position: static;
+						position: absolute;
 						top: 6px;
 						left: 6px;
 						color: #fff;
@@ -1892,7 +1899,7 @@ input, select, textarea {
 
 					#titleBar .toggle:before {
 						content: '';
-						position: static;
+						position: absolute;
 						width: 20px;
 						height: 30px;
 						background: url("images/mobileUI-site-nav-opener-bg.svg");
@@ -1923,7 +1930,7 @@ input, select, textarea {
 				height: 100%;
 				left: 0;
 				overflow-y: auto;
-				position: static;
+				position: fixed;
 				top: 0;
 				width: 275px;
 				z-index: 10002;
