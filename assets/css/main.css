@@ -1419,9 +1419,10 @@ input, select, textarea {
 		}
 
 		.quote-list li p {
-			margin: 0 0 0 0px;
 			font-size: 1.2em;
 			font-style: italic;
+			padding: 0;
+			margin: 0;
 		}
 
 		.quote-list li span {
@@ -1579,7 +1580,8 @@ input, select, textarea {
 			font-weight: 200;
 			line-height: 1.25em;
 			padding-right: 1em;
-			margin: 0 0 1em 0;
+			padding: 0;
+			margin: 0;
 		}
 
 /* Features */
@@ -1634,12 +1636,12 @@ input, select, textarea {
 			margin: 0;
 		}
 
-		#content h6 {
+		#content h5 {
 			padding: 0;
 			margin: 0;
 		}
 
-		#content h7 {
+		#content h6 {
 			padding: 1;
 			margin: 1;
 		}
@@ -1733,20 +1735,19 @@ input, select, textarea {
 				}
 
 				.quote-list li p {
-					margin: 0 0 0 0px;
-					padding: 0;
 					font-size: 1em;
 					font-style: italic;
-					line-height: 0em;
+					line-height: 1.8em;
+					padding: 0;
+					margin: 0;
 				}
 
 				.quote-list li span {
 					display: block;
 					margin-left: 80px;
-					padding: 0;
 					font-size: 0.8em;
 					font-weight: 400;
-					line-height: 0em;
+					line-height: 1.8em;
 				}
 
 			.feature-image {
@@ -1993,6 +1994,7 @@ input, select, textarea {
 			.quote-list li p {
 				margin-bottom: 0em;
 				padding: 0;
+				margin: 0;
 			}
 
 			.check-list li {
@@ -2008,15 +2010,15 @@ input, select, textarea {
 			#banner p {
 				font-size: 1.25em;
 				font-weight: 200;
-				line-height: 0em;
-				margin: 0 0 0em 0;
+				line-height: 1.25em;
 				padding: 0;
+				margin: 0;
 			}
 
 		/* Content */
 
 			#content section {
-				padding: 0px 0px;
+				padding: 30px 20px;
 			}
 
 			#content h2 {
@@ -2025,12 +2027,23 @@ input, select, textarea {
 
 			#content h3 {
 				font-size: 1em;
-				margin: 0;
 				padding: 0;
+				margin: 0;
+			}
+
+			#content h3 {
+				padding: 0;
+				margin: 0;
+			}
+
+			#content h3 {
+				padding: 0;
+				margin: 0;
 			}
 
 			#content header {
 				margin: 0 0 0em 0;
+				padding: 0;
 			}
 
 		/* Footer */
