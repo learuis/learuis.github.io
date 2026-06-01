@@ -1,5 +1,6 @@
 <nav>
+  <h3 class="site-title"><a href="/index.html" class="site-title">Band of Outcasts</a></h3>
   {% for item in site.data.navigation %}
-    <a href="{{ item.link }}"{% if page.url == item.link %} class="current"{% endif %}>{{ item.name }}</a>
+    <a href="{{ item.link }}"{% if page.url == item.link %} class="current nav-links"{% endif %}>{{ item.name }}</a>
   {% endfor %}
 </nav>

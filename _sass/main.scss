@@ -1,3 +1,28 @@
+body {
+  background-color: #000000;
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+nav {
+  text-align: center;
+}
+
 .current {
   color: green;
 }
+
+.current.nav-links {
+    display: inline;
+}
+
+.site-title {
+  color: orange;
+  display: inline;
+  text-decoration: none;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
