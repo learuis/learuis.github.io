@@ -21,17 +21,10 @@ nav {
   display: inline;
   text-decoration: none;
   padding: 10px;
-  font-size: 1vw;
+  font-size: 2rem;
   font-family: 'Yanone Kaffeesatz';
 }
 
-.site-title {
-  color: orange;
-  display: inline;
-  text-decoration: none;
-  font-size: 4rem;
-  font-family: 'Yanone Kaffeesatz';
-}
 
 .nav-bar {
 
@@ -75,6 +68,14 @@ nav {
 
   .current {
     color: orange;
+  }
+
+  .site-title {
+    color: orange;
+    display: inline;
+    text-decoration: none;
+    font-size: 4rem;
+    font-family: 'Yanone Kaffeesatz';
   }
 
   ul li a:hover {
