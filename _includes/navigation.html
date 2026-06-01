@@ -1,20 +1,24 @@
-<nav class="nav-bar">
-    <input type="checkbox" id="check">
-    <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-    </label>
-    <label class="logo"><a href="/index.html" class="logo">Band of Outcasts</a></label>
+<!--<div class="navbar">-->
+<container class="page-wrapper">
+    <nav class="nav-bar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><a href="/index.html" class="logo">Band of Outcasts</a></label>
 
-    <ul>
-        {% for item in site.data.navigation %}
-        <li><a href="{{ item.link }}"
-               {% if page.url == item.link %}
-               class="current"
-               {% else %}
-               class="nav-bar"
-               {% endif %}>
-            {{ item.name }}
-        </a></li>
-        {% endfor %}
-    </ul>
-</nav>
+        <ul>
+            {% for item in site.data.navigation %}
+            <li><a href="{{ item.link }}"
+                   {% if page.url== item.link %}
+                   class="current"
+                   {% else %}
+                   class="nav-bar"
+                   {% endif %}>
+                {{ item.name }}
+            </a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</container>
+<!--</div>-->
