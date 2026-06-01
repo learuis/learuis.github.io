@@ -1,3 +1,6 @@
+baseurl: ""
+url: "https://learuis.github.io"
+
 collections:
   authors:
     output: true
