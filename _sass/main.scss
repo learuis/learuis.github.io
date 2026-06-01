@@ -14,37 +14,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-}
-
-.current {
-  color: orange;
-}
-
-.current.nav-links {
-    display: inline;
-}
-
-.site-title {
-  color: orange;
-  display: inline;
-  text-decoration: none;
-  font-size: 2.5vw;
-  font-family: 'Yanone Kaffeesatz';
-}
-
-.navli {
-  margin-right: 20px;
-}
-
-.navli a {
-  color: white;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.navli a:hover {
-  color: orange;
 }
 
 ul {
@@ -52,6 +21,20 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+ul li {
+  margin-right: 20px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+ul li a:hover {
+  color: lightgreen;
 }
 
 .checkbtn {
@@ -99,3 +82,27 @@ ul {
   }
 }
 
+.current {
+  color: orange;
+  display: inline;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1vw;
+  font-family: 'Yanone Kaffeesatz';
+}
+
+.nav-links {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1vw;
+  font-family: 'Yanone Kaffeesatz';
+}
+
+.site-title {
+  color: orange;
+  display: inline;
+  text-decoration: none;
+  font-size: 2.5vw;
+  font-family: 'Yanone Kaffeesatz';
+}
