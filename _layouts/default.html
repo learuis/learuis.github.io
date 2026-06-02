@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
-{% include navigation.html %}
-{{ content }}
+<div class="page-column">
+    {% include navigation.html %}
+    {{ content }}
+    {% include top.html %}
+</div>
 </body>
 </html>
