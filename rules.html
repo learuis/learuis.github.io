@@ -2,19 +2,16 @@
 layout: default
 title: Server Rules
 ---
-<!doctype html>
 <html>
 <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
 </head>
 <body>
-
 {% assign sorted_rules = site.rules | sort: 'order' %}
 <div class="container"><h1>Server Rules</h1>
     Read the rules below carefully. You are responsible as a player for knowing and understanding these rules. If there is something you do not understand, please ask a moderator. Saying you were not aware of the rules is not excusable if you violate them.<br><br>
     | {% for rule in sorted_rules %}
-<!--    <a href="systems.html" class="bordered-feature-image"><img src="assets/images/eldarium.png" alt="" width="262" height="110"/></a>-->
     <a href="#{{ rule.link }}">{{ rule.title }}</a> |
     {% endfor %}
 </div>
@@ -26,26 +23,5 @@ title: Server Rules
 </div>
 <br>
 {% endfor %}
-
-<!--{% for rule in site.data.rules %}-->
-<!--<div class="container">-->
-<!--    <h2 id="{{ rule.link }}">{{ rule.title }}</h2>-->
-<!--    <p><em>{{ rule.description }}</em></p>-->
-
-<!--    {% if rule.subsections %}-->
-<!--    <ul class="rules-list">-->
-<!--        {% for sub in rule.subsections %}-->
-<!--        <li class="rule-point">-->
-<!--            <div class="rule-title"><strong>{{ sub.point }} - </strong>{{ sub.title }}:</div>-->
-<!--            <br>-->
-<!--            <div class="rule-details">{{ sub.details | newline_to_br }}</div>-->
-<!--        </li>-->
-<!--        {% endfor %}-->
-<!--    </ul>-->
-<!--    {% endif %}-->
-<!--</div>-->
-<!--<br>-->
-<!--{% endfor %}-->
-
 </body>
 </html>
