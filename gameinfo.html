@@ -1,0 +1,29 @@
+---
+layout: default
+title: Test
+---
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+</head>
+<body>
+
+{% for item in site.data.gameinfo %}
+<div class="container">
+    <ul>
+        <li>{{ item.category }}</li>
+        {% if item.subsections %}
+        <ul>
+            {% for sub in item.subsections %}
+            <li><a href="{{ sub.link }}">{{ sub.name }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </ul>
+</div>
+<br>
+{% endfor %}
+</body>
+</html>

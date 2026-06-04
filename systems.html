@@ -1,0 +1,32 @@
+---
+layout: default
+title: Custom Systems
+---
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+</head>
+<body>
+{% assign sorted_systems = site.systems | sort: 'order' %}
+<div class="container"><h1>Custom Systems</h1>
+    {% for system in sorted_systems %}
+    {% if system.path contains 'crafting/' or system.path contains 'adventuring/' or system.path contains 'commands/' %}
+    {% continue %}
+    {% endif %}
+    <a href="#{{ system.link }}">{{ system.title }}</a><br>
+    {% endfor %}
+</div>
+<br>
+{% for system in sorted_systems %}
+    {% if system.path contains 'crafting/' or system.path contains 'adventuring/' or system.path contains 'commands/' %}
+    {% continue %}
+    {% endif %}
+<div class="container">
+    <h2 id="{{ system.link }}">{{ system.title }}</h2>
+    {{ system.content | markdownify }}
+</div>
+<br>
+{% endfor %}
+</body>
+</html>

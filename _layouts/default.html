@@ -9,10 +9,13 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
-<div class="page-column">
-    {% include navigation.html %}
-    {{ content }}
-    {% include top.html %}
+
+<div class="nav-header">{% include navigation.html %}
+    <hr>
+    <br>
+    <div class="page-column">
+        {{ content }}
+        {% include top.html %}
 </div>
 </body>
 </html>

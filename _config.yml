@@ -1,6 +1,9 @@
 collections:
   authors:
     output: true
+  rules:
+  systems:
+    output: true
 
 defaults:
   - scope:

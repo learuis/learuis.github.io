@@ -1,0 +1,4 @@
+---
+title: Blacksmith
+link: blacksmith
+---
