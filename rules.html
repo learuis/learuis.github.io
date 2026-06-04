@@ -10,11 +10,9 @@ title: Server Rules
 <body>
 {% assign sorted_rules = site.rules | sort: 'order' %}
 <div class="container"><h1>Server Rules</h1>
-    Read the rules below carefully. You are responsible as a player for knowing and understanding these rules. If there is something you do not understand, please ask a moderator. Saying you were not aware of the rules is not excusable if you violate them.<br><br>
-    | {% for rule in sorted_rules %}
-    <a href="#{{ rule.link }}">{{ rule.title }}</a> |
+    {% for rule in sorted_rules %}
+    <a href="#{{ rule.link }}">{{ rule.title }}</a><br>
     {% endfor %}
-
 </div>
 <br>
 {% for rule in sorted_rules %}
