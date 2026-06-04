@@ -41,7 +41,7 @@ body {
 .page-column {
   white-space: normal;
   width: 100%;
-  max-width: 800px;
+  max-width: 750px;
   margin: 0 auto;
   background: #333333;
   padding: 20px;
@@ -170,6 +170,29 @@ h1, h2 {
   @media (max-width: 768px) {
     //.nav-bar {
     //  min-height: 0px;
+
+    .page-column {
+      white-space: normal;
+      max-width: 800px;
+      margin: 0 auto;
+      background: #333333;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .nav-header {
+      white-space: nowrap;
+      background: #333333;
+      padding: 20px;
+      box-sizing: border-box;
+      position: absolute;
+      top: 0;
+      place-content: center;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      margin-inline: auto;
+    }
 
     .checkbtn {
       display: block;

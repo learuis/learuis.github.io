@@ -14,9 +14,13 @@ title: Server Rules
     | {% for rule in sorted_rules %}
     <a href="#{{ rule.link }}">{{ rule.title }}</a> |
     {% endfor %}
+
 </div>
 <br>
 {% for rule in sorted_rules %}
+
+
+
 <div class="container">
     <h2 id="{{ rule.link }}">{{ rule.title }}</h2>
     {{ rule.content | markdownify }}
