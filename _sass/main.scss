@@ -172,6 +172,8 @@ h1, h2 {
     //  min-height: 0px;
 
     .page-column {
+      overflow-wrap: break-word;
+      word-wrap: break-word;
       white-space: normal;
       max-width: 800px;
       margin: 0 auto;
