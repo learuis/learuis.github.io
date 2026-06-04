@@ -15,3 +15,45 @@ permission from the owner of the existing base or look for somewhere else to bui
 repeatable process: to check distance, stand at the closest edge of the base, set "View Distance" (Under Settings ->
 Video) to HIGH. Log out and back in. If the other base loads in without you moving, it is considered to be "within
 render distance". If you are unsure, please contact a Moderator.
+
+### 2.2 - BUILDING LIMITS
+
+Each solo player / clan may have:
+
+- One main base per member
+- One auxiliary base (10x10) TOTAL
+- Three outposts (5x5) TOTAL
+- Total Building Pieces x4000 per member
+- Total Placeable Items x1200 per member
+
+You can check counts by looking at the clan tab.
+
+Examples:
+2 person clan = 8000 pieces, 2400 items, 2 main bases, 1 aux base, 3 outposts.
+3 person clan = 12000 pieces, 3600 items, 3 main bases, 1 aux base, 3 outposts.
+And so on...
+
+### 2.3 - OUTPOSTS
+
+You may build three (3) outposts. Outposts have the following limits:
+
+- No larger than a 5x5 footprint, top to bottom
+- No taller than 6 blocks in height
+- Any stairs / entrance must fit inside the 5x5 footprint
+- No outposts within render distance of another that you own
+
+Moderators reserve the right to make a ruling on excessive outposts for the best interest of the server.
+
+Outposts do not claim render distance like bases, but must respect the render distance existing player bases. Outposts
+can be built next to outposts owned by other players. Construction of a new main base by a player does not force
+existing outposts to move.
+
+### 2.4 - STRAY OBJECTS
+
+Placeable objects that are not near your base or aux base are considered to be Outposts.
+
+- A thrall wheel, animal pen, or TP stone placed on the ground is an Outpost and counts toward your limits, even if
+  there are no foundations.
+- Bedrolls are an exception and are not Outposts.
+  Spamming foundations / pillars to claim land is not allowed.
+
