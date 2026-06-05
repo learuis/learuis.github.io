@@ -78,3 +78,11 @@ Help make the server look nice! Put some effort into your buildings and be creat
 If you struggle with building, there are plenty of guides and tips in discord server to help get you started. There are
 also many
 helpful players who will be happy to give you some tips.
+
+
+### 2.8 - NEWB RIVER RENDER DISTANCE EXEMPTION
+
+To allow space for new players to build starter bases in, we have created an exemption to the Render Distance rule for
+the following map squares: E3, E4, F3, F4, G3, G4, H3, H4, I3, I4, J3, J4. Base built in these squares do not claim "
+render distance" around them. Please try to be courteous with your placement, but you don't need to go out of render
+distance to set up your starter base.
