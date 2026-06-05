@@ -92,3 +92,8 @@ distance to set up your starter base.
 The Render Distance rule will not be enforced in a small radius around major NPC cities, including Summoning Place, The
 Den, The Mounds, Sepermeru, Buccaneer Bay, and New Asagarth. A map with the boundaries is available on discord. This
 does not mean that you should build as close to possible to your neighbors, please be courteous.
+
+### 2.10 - OUTPOSTS ONLY AT SINKHOLE
+
+The "valley" where the Sinkhole located is a designated space for Outposts only (5x5 size!). It is intended to be a
+central hub for player Market and Shop builds.
