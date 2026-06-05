@@ -78,22 +78,3 @@ Help make the server look nice! Put some effort into your buildings and be creat
 If you struggle with building, there are plenty of guides and tips in discord server to help get you started. There are
 also many
 helpful players who will be happy to give you some tips.
-
-### 2.8 - NEWB RIVER RENDER DISTANCE EXEMPTION
-
-To allow space for new players to build starter bases in, we have created an exemption to the Render Distance rule for
-the following map squares: E3, E4, F3, F4, G3, G4, H3, H4, I3, I4, J3, J4. Base built in these squares do not claim "
-render distance" around them. Please try to be courteous with your placement, but you don't need to go out of render
-distance to set up your starter base.
-
-### 2.9 - MAJOR CITY RENDER DISTANCE EXEMPTION
-
-The Render Distance rule will not be enforced in a small radius around major NPC cities, including Summoning Place, The
-Den, The Mounds, Sepermeru, Buccaneer Bay, and New Asagarth. A map with the boundaries is available on discord. This
-does not mean that you should build as close to possible to your neighbors, please be
-courteous. https://discord.com/channels/1023741745810378834/1501341883056787588
-
-### 2.10 - OUTPOSTS ONLY AT SINKHOLE
-
-The "valley" where the Sinkhole located is a designated space for Outposts only (5x5 size!). It is intended to be a
-central hub for player Market and Shop builds. 
